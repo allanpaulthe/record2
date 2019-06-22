@@ -1,8 +1,13 @@
-// Called when the user clicks on the browser action
-chrome.browserAction.onClicked.addListener(function(tab) {
-   // Send a message to the active tab
-   chrome.tabs.query({active: true, currentWindow:true},function(tabs) {
-        var activeTab = tabs[0];
-        chrome.tabs.sendMessage(activeTab.id, {"message": "clicked_browser_action"});
+window.browser = (function () {
+   return window.msBrowser ||
+     window.browser ||
+     window.chrome;
+ })();
+
+browser.browserAction.onClicked.addListener(function(tab) {
+   browser.windows.create({
+     url: browser.runtime.getURL("index.html"),
+     type: "popup"
    });
-});
+ });
+ 
