@@ -5359,8 +5359,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
 
 path-parse@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.5.tgz#3c1adf871ea9cd6c9431b6ea2bd74a0ff055c4c1"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
@@ -5980,10 +5981,6 @@ react-dom@^16.4.1:
 react-error-overlay@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
-
-react-frame-component@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/react-frame-component/-/react-frame-component-4.0.0.tgz#57d51cdb2da3b204cc34577349f9f5bb84a76aac"
 
 react@^16.4.1:
   version "16.4.1"
@@ -7328,11 +7325,6 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   resolved "https://registry.yarnpkg.com/wbuf/-/wbuf-1.7.3.tgz#c1d8d149316d3ea852848895cb6a0bfe887b87df"
   dependencies:
     minimalistic-assert "^1.0.0"
-
-webextension-polyfill@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webextension-polyfill/-/webextension-polyfill-0.4.0.tgz#9cc5a60f0f2bf907a6b349fdd7e61701f54956f9"
-  integrity sha512-oreMp+EoAo1pzRMigx4jB5jInIpx6NTCySPSjGyLLee/dCIPiRqowCEfbFP8o20wz9SOtNwSsfkaJ9D/tRgpag==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
